@@ -13,3 +13,8 @@ for i in range(start_number):
 for i in range(start_number, end_number):
     file_path = os.path.join(folder_path, f"C_MM{i}.cpp")
     os.system(f"touch {file_path}")
+
+
+for i in range(33, 37):
+    file_path = os.path.join(folder_path, f"C_MM{i}.cpp")
+    os.system(f"touch {file_path}")
